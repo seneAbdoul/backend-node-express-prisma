@@ -1,0 +1,21 @@
+POST http://localhost:3005/api/v1/taches
+Content-Type: application/json
+Accept: application/json
+
+{
+  "libelle": "tache1",
+  "statut": "mansour",
+  "etat": true,
+  "userId": 1
+}
+
+###
+
+GET http://localhost:3005/api/v1/taches
+
+###
+
+POST http://localhost:3005/api/v1/taches/1
+
+###
+GET http://localhost:3005/api/v1/taches/1

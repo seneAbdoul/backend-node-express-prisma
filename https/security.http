@@ -1,0 +1,20 @@
+POST http://localhost:3005/api/v1/auth/login
+Content-Type: application/json
+Accept: application/json
+
+{
+  "username": "sen0signbi@gmail.com",
+  "password": "passer123"
+}
+
+###
+
+POST http://localhost:3005/api/v1/auth/register
+Content-Type: application/json
+Accept: application/json
+
+{
+  "username": "sen0signbi@gmail.com",
+  "password": "passer123"
+
+}
